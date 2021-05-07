@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'JGo Kapok',
+  tagline: '"Katakan yang perlu dikatakan, sampaikan yang harus disampaikan"',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,9 +8,9 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'JGKP',
+      title: 'JGo Kapok',
       logo: {
-        alt: 'JGKP Logo',
+        alt: 'JGo Kapok Logo',
         src: 'img/logo.png',
       },
       links: [
@@ -75,29 +75,29 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} JGo Project, Inc. Built with Docusaurus.`,
     },
   },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+  // presets: [
+  //   [
+  //     '@docusaurus/preset-classic',
+  //     {
+  //       docs: {
+  //         sidebarPath: require.resolve('./sidebars.js'),
+  //         // Please change this to your repo.
+  //         editUrl:
+  //           'https://github.com/facebook/docusaurus/edit/master/website/',
+  //       },
+  //       blog: {
+  //         showReadingTime: true,
+  //         // Please change this to your repo.
+  //         editUrl:
+  //           'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+  //       },
+  //       theme: {
+  //         customCss: require.resolve('./src/css/custom.css'),
+  //       },
+  //     },
+  //   ],
+  // ],
 };
