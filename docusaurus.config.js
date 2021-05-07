@@ -1,6 +1,6 @@
 module.exports = {
   title: 'JGo Kapok',
-  tagline: '"Katakan yang perlu dikatakan, sampaikan yang harus disampaikan"',
+  tagline: 'Katakan yang perlu dikatakan, sampaikan yang harus disampaikan',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
