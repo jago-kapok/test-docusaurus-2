@@ -1,6 +1,6 @@
 module.exports = {
   title: 'JGo Kapok',
-  tagline: 'Katakan yang perlu dikatakan, sampaikan yang harus disampaikan',
+  tagline: '"Katakan yang perlu dikatakan, sampaikan yang harus disampaikan"',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -78,26 +78,26 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} JGo Project, Inc. Built with Docusaurus.`,
     },
   },
-  // presets: [
-  //   [
-  //     '@docusaurus/preset-classic',
-  //     {
-  //       docs: {
-  //         sidebarPath: require.resolve('./sidebars.js'),
-  //         // Please change this to your repo.
-  //         editUrl:
-  //           'https://github.com/facebook/docusaurus/edit/master/website/',
-  //       },
-  //       blog: {
-  //         showReadingTime: true,
-  //         // Please change this to your repo.
-  //         editUrl:
-  //           'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-  //       },
-  //       theme: {
-  //         customCss: require.resolve('./src/css/custom.css'),
-  //       },
-  //     },
-  //   ],
-  // ],
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
 };
